@@ -6,7 +6,7 @@ createCanvas(windowWidth,windowWidth);
 
 function draw() { //runs in a loop
   
-  var num = 20; //num squares
+  var num = 10; //num squares
   var sideLen = windowWidth/num; //side length of each square
   
   
