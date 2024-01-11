@@ -1,7 +1,9 @@
 //creating a gif
 let gif;
 
-function preload("assets/GilbertCatGif.gif");
+function preload (){
+gif = loadImage ('assets/GilbertCatGif.gif');
+}
 
 function setup() {
   //runs one time
