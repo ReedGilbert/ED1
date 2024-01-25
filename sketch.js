@@ -21,7 +21,7 @@ function draw() {
   var sideLen = windowWidth / num; //side length of each square
 
   for (var y = 0; y < windowHeight*2; y += sideLen) {
-    for (var x = 0; x < windowWidth; x += sideLen) {
+    for (var x = 0; x < windowWidth*2; x += sideLen) {
       image(gif, x, y, sideLen, sideLen);
     }
   }
