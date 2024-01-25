@@ -27,6 +27,7 @@ function draw() {
   }
 }
 
-function resizeCanvas(){
+function windowResized(event){
   resizeCanvas(windowWidth, windowHeight);
+  print(event);
 }
