@@ -20,13 +20,13 @@ function draw() {
   var num = 10; //num squares
   var sideLen = windowWidth / num; //side length of each square
 
-  for (var y = 0; y < windowHeight*2; y += sideLen) {
-    for (var x = 0; x < windowWidth*2; x += sideLen) {
+  for (var y = 0; y < windowHeight; y += sideLen) {
+    for (var x = 0; x < windowWidth; x += sideLen) {
       image(gif, x, y, sideLen, sideLen);
     }
   }
 }
 
-function windowResized(){
+function resizeCanvas(){
   resizeCanvas(windowWidth, windowHeight);
 }
