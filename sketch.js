@@ -12,6 +12,10 @@ function setup() {
   strokeWeight(1);
 }
 
+function windowResized(){
+  resizeCanvas(windowWidth, windowHeight);
+}
+
 function draw() {
   //runs in a loop
   
@@ -27,7 +31,3 @@ function draw() {
   }
 }
 
-function windowResized(event){
-  resizeCanvas(windowWidth, windowHeight);
-  print(event);
-}
