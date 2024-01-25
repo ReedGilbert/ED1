@@ -47,12 +47,7 @@ td {
     padding-top:10px;
     text-align:center;
 
-    &:after, &:before {
-        content: '';
-
-        display: block;
-        padding-bottom: calc(50% - 0.5em);
-    }
+    
 }
 
 .container{
