@@ -12,14 +12,11 @@ function setup() {
   strokeWeight(1);
 }
 
-function windowResized(){
-  resizeCanvas(windowWidth, windowHeight);
-}
 
 function draw() {
   //runs in a loop
   
-  background("lightyellow");
+  background("lightyellow")
 
   var num = 10; //num squares
   var sideLen = windowWidth / num; //side length of each square
@@ -29,5 +26,9 @@ function draw() {
       image(gif, x, y, sideLen, sideLen);
     }
   }
+}
+
+function windowResized(){
+  resizeCanvas(windowWidth, windowHeight);
 }
 
