@@ -20,7 +20,9 @@ h1{
      left: 50%;
      transform: translateX(-50%) translateY(-50%);
      text-align: center;
-     top: 0%;
+     top: 2vw;
+     display: inline; background: rgb(255, 255, 224);
+     font-size: 3vw;
 }
 
 p{
@@ -29,14 +31,16 @@ p{
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
     text-align:center;
-    top: 5%;
+    top: 4vw;
+    display: inline; background: rgb(255, 255, 224);
+    font-size: 2vw;
 }
 
 table{
   position: absolute;
   z-index: 1;
   width:100%;
-  top: 10%;
+  top: 5.5vw;
 
 }
 
