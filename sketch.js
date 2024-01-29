@@ -7,7 +7,7 @@ gif = loadImage ('assets/GilbertCatGif.gif');
 
 function setup() {
   //runs one time
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth*2, windowHeight*2);
   fill("lightyellow");
   strokeWeight(1);
 }
