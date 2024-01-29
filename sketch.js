@@ -16,7 +16,7 @@ function setup() {
 function draw() {
   //runs in a loop
   
-  background("lightyellow")
+  background("grey")
 
   var num = 10; //num squares
   var sideLen = windowWidth / num; //side length of each square
