@@ -30,11 +30,11 @@ p{
     position: absolute;
     font-size: 0.875em;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-10%);
     text-align:center;
     top: 4vw;
     display: inline; background: rgb(255, 255, 224);
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 table{
