@@ -1,7 +1,6 @@
 html, body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
   font-family:'Roboto', sans-serif;
   background-color: rgb(255, 255, 224);
 }
@@ -24,6 +23,7 @@ h1{
      top: 2vw;
      display: inline; background: rgb(255, 255, 224);
      font-size: 3vw;
+     overflow: hidden;
 }
 
 
