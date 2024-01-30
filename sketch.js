@@ -7,7 +7,7 @@ gif = loadImage ('assets/GilbertCatGif.gif');
 
 function setup() {
   //runs one time
-  createCanvas(windowWidth, windowheight*2);
+  createCanvas(windowWidth, windowHeight*2);
   fill("lightyellow");
   strokeWeight(1);
 }
@@ -21,7 +21,7 @@ function draw() {
   var num = 10; //num squares
   var sideLen = windowWidth / num; //side length of each square
 
-  for (var y = 0; y < windowheight*2; y += sideLen) {
+  for (var y = 0; y < windowHeight*2; y += sideLen) {
     for (var x = 0; x < windowWidth; x += sideLen) {
       image(gif, x, y, sideLen, sideLen);
     }
@@ -29,6 +29,6 @@ function draw() {
 }
 
 function windowResized(){
-  resizeCanvas(windowWidth, windowheight*2);
+  resizeCanvas(windowWidth, windowHeight*2);
 }
 
